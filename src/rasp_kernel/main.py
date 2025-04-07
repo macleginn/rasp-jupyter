@@ -16,7 +16,7 @@ class RASPREPLForJupyter(REPL):
         # to simulate that.
         output_buffer = StringIO()
         with StringIO(code) as input_buffer, redirect_stdout(output_buffer):
-            self.run(fromfile=input_buffer, env=self.base_env)
+            self.run(fromfile=input_buffer, env=self.env)
         return output_buffer.getvalue()
 
 
