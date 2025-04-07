@@ -1,0 +1,1 @@
+A Jupyter kernel for [RASP](https://github.com/tech-srl/RASP). The RASP repository is included as a submodule because

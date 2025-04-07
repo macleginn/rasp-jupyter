@@ -1,0 +1,16 @@
+[project]
+name = "rasp-jupyter-kernel"
+version = "0.1.0"
+description = "A Jupyter kernel for RASP"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "jupyter>=1.1.1",
+    "antlr4-python3-runtime==4.9.1",
+    "graphviz",
+    "termcolor"
+]
+
+[project.scripts]
+start_kernel = "rasp_kernel.main:main"

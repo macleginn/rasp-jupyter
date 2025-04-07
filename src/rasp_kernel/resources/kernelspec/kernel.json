@@ -1,0 +1,10 @@
+{
+    "argv": [
+        "uv",
+        "run",
+        "start_kernel",
+        "-f",
+        "{connection_file}"
+    ],
+    "display_name": "Echo"
+}
