@@ -1,4 +1,4 @@
-This is a simply Jupyter kernel for [RASP](https://github.com/tech-srl/RASP). We include a fork of RASP as a submodule because the path to the standard library needs to be fixed to work from inside the kernel package.
+This is a simple Jupyter kernel for [RASP](https://github.com/tech-srl/RASP). We include a fork of RASP as a submodule because the path to the standard library needs to be fixed to work from inside the kernel package.
 
 Assuming that [uv](https://docs.astral.sh/uv/) is available, the kernel can be installed in a dedicated environment in the following way:
 
