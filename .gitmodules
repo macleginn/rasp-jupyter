@@ -1,0 +1,3 @@
+[submodule "src/rasp_kernel/RASP"]
+	path = src/rasp_kernel/RASP
+	url = git@github.com:macleginn/RASP.git
